@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:method}(${2}) {
+    ${3}
+}
+]]></content>
+    <tabTrigger>om</tabTrigger>
+    <scope>source.js</scope>
+    <description>object method</description>
+</snippet>
