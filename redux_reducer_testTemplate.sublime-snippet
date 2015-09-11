@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+import reducer from '../${1}';
+
+describe('${1}', () => {
+
+    it('returns initial state', () => {
+
+        expect(reducer(void 0, {}))
+            .to.be.eql({${2}});
+
+    });
+
+});
+]]></content>
+    <tabTrigger>kmbt</tabTrigger>
+    <scope>source.js</scope>
+    <description>Redux: reducer test</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+const ${1} = (${2}) => ${3};
+]]></content>
+    <tabTrigger>arc</tabTrigger>
+    <scope>source.js</scope>
+    <description>arrow function to constant</description>
+</snippet>
