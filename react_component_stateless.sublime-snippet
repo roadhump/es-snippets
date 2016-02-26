@@ -2,13 +2,9 @@
     <content><![CDATA[
 import React from 'react';
 
-const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = (${2}) => {
-
-    return (
-        ${3:<div>${0}</div>}
-    );
-
-};
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = (${2}) => (
+    ${3:<div>${0}</div>}
+);
 
 export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
 ]]></content>
