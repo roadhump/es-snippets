@@ -6,9 +6,9 @@ export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends R
 
     render() {
 
-        return ${2:(
-            ${3:<div>${0}</div>}
-        );}
+        return (
+            ${2:<div>${0}</div>}
+        );
 
     }
 
